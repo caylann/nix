@@ -44,9 +44,7 @@
  # settings = {
  #  default = [ "alacritty.desktop"];
  # };
- #};
-
- programs.sway.enable = true;
+ #}; 
 
  # Steam
  programs.steam = {
@@ -72,7 +70,6 @@
   alacritty
   fastfetch
   home-manager
-  sway
  ];
 
  # services.openssh.enable = true;
