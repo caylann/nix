@@ -5,14 +5,11 @@ let
 in
 {
  wayland.windowManager.sway.config = {
-  keybindings = {
+   keybindings = {
    
    # Basic
    "${modifier}+Return" = "exec alacritty";
    "${modifier}+q" = "kill";
-
-   # Floating
-   floating.modifier = "${modifier}";
 
    # Move focus
    "${modifier}+h" = "focus left"; 

@@ -12,6 +12,8 @@
      res = "1920x1080@60Hz";
     };
    };
+
+   floating.modifier = "Mod4";
   };
  };
 }
