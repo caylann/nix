@@ -11,6 +11,9 @@ in
    "${modifier}+Return" = "exec alacritty";
    "${modifier}+q" = "kill";
 
+   # Floating
+   floating.modifier = "${modifier}";
+
    # Move focus
    "${modifier}+h" = "focus left"; 
    "${modifier}+j" = "focus down";
