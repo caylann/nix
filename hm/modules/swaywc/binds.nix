@@ -11,6 +11,12 @@ in
    "${modifier}+Return" = "exec alacritty";
    "${modifier}+q" = "kill";
 
+   # Move focus
+   "${modifier}+h" = "focus left"; 
+   "${modifier}+j" = "focus down";
+   "${modifier}+k" = "focus up";
+   "${modifier}+l" = "focus right";
+
    # Workspaces
    "${modifier}+1" = "workspace number 1";
    "${modifier}+2" = "workspace number 2";
