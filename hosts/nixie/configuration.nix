@@ -67,8 +67,6 @@
  environment.systemPackages = with pkgs; [
   nftables
   neovim
-  alacritty
-  fastfetch
   home-manager
  ];
 

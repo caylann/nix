@@ -13,6 +13,11 @@
     };
    };
 
+   gaps = {
+    inner = 10;
+    outer = 5;
+   };
+
    floating.modifier = "Mod4";
   };
  };
