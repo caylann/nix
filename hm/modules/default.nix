@@ -1,7 +1,9 @@
 {
  imports = [
-  ./fonts.nix
   ./alacritty.nix
+  ./fonts.nix
+  ./fuzzel
   ./swaywm
+  ./zsh.nix
  ];
 }
