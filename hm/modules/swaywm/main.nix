@@ -14,8 +14,8 @@
    };
 
    gaps = {
-    inner = 10;
-    outer = 5;
+    inner = 5;
+    outer = 7;
    };
 
    floating.modifier = "Mod4";

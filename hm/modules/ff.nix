@@ -4,10 +4,10 @@
   settings = {
    logo = {
         type = "builtin";
-        height = 12;
-        width = 12;
+        height = 10;
+        width = 10;
         padding = {
-           top = 2;
+           top = 1;
            left = 4;
         };
     };
@@ -68,7 +68,7 @@
         }
         {
             type = "shell";
-            key = "└ └󰞷 ";
+            key = "│ ├󰞷 ";
             keyColor = "yellow";
         } 
         {
@@ -78,7 +78,7 @@
         }
         {
             type = "wm";
-            key = "│ ├󱂬 ";
+            key = "└ └󱂬 ";
             keyColor = "yellow";
         }
         {
