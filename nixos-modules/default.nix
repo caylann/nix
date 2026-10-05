@@ -3,7 +3,7 @@
   ./boot.nix
   ./hm.nix
   ./kernel.nix
-  #./sway.nix
+  ./sway.nix
   ./user.nix
   ./xdg.nix
  ];
