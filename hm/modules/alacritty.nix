@@ -2,6 +2,13 @@
  programs.alacritty = {
   enable = true;
   settings = {
+   
+   window = {
+    padding = {
+     x = 8;
+     y = 8;
+    };
+   };
 
    # Font
    font = {
@@ -37,8 +44,8 @@
     }; 
     
     selection = {
-     text = "#bbc3d4";
-     background = "#15151a";
+     text = "#15151a";
+     background = "#bbc3d4";
     };
      
     normal = {

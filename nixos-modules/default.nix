@@ -1,8 +1,8 @@
 {
- imports = [
-  ./hm.nix
+ imports = [ 
   ./boot.nix
-  ./user.nix
+  ./hm.nix 
   ./sway.nix
+  ./user.nix
  ];
 }

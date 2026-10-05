@@ -62,25 +62,30 @@
             keyColor = "yellow";
         }
         {
+            type = "bios";
+            key = "│ ├󰖡 ";
+            keyColor = "yellow";
+        }
+        {
             type = "packages";
             key = "│ ├󰏗 ";
             keyColor = "yellow";
         }
         {
             type = "shell";
-            key = "│ ├󰞷 ";
+            key = "└ └󰞷 ";
             keyColor = "yellow";
         } 
         {
             type = "de";
             key = "󰧨  DE";
-            keyColor = "blue";
-        }
-        {
-            type = "wm";
-            key = "└ └󱂬 ";
             keyColor = "yellow";
         }
+        # {
+          # type = "wm";
+          # key = "└ └󱂬 ";
+          # keyColor = "yellow";
+        # }
         {
             type = "wmtheme";
             key = "│ ├󰉦 ";
