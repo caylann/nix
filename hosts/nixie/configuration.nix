@@ -27,10 +27,7 @@
  #nix.settings.substituters = [ "https://tsinghua.edu.cn" "http://cache.nixos.org/" ];
 
  # Unfree
- nixpkgs.config.allowUnfree = true;
-
- # Use latest kernel.
- boot.kernelPackages = pkgs.linuxPackages_latest;
+ nixpkgs.config.allowUnfree = true; 
 
  networking.hostName = "nixie"; # Define your hostname.
  networking.networkmanager.enable = true;

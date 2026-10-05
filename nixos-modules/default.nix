@@ -1,8 +1,10 @@
 {
  imports = [ 
   ./boot.nix
-  ./hm.nix 
-  ./sway.nix
+  ./hm.nix
+  ./kernel.nix
+  #./sway.nix
   ./user.nix
+  ./xdg.nix
  ];
 }

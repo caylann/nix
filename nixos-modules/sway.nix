@@ -2,6 +2,6 @@
 {
  programs.sway = {
   enable = true;
-  package = pkgs.swayfx;
+  package = pkgs.sway;
  };
 }

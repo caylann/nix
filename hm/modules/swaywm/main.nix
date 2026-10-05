@@ -1,17 +1,26 @@
-{ pkgs, ...}:
+{ pkgs, ... }:
 
 {
  home.packages = [ pkgs.swaybg ];
 
  wayland.windowManager.sway = {
   enable = true;
-  package = pkgs.swayfx;
+  systemd.enable = true;
+  systemd.xdgAutostart = true;
+  package = pkgs.sway;
   checkConfig = false;
   config.terminal = "alacritty";
   wrapperFeatures.base = true;
   
   config = {
    bars = [];
+
+   startup = [
+    {
+     command = "swaymsg workspace number 1";
+     always = true;
+    }
+   ];
 
    output = {
     "HDMI-A-1" = {
@@ -28,18 +37,17 @@
 
    window = {
     titlebar = false;
+    border = 4;
    };
 
-   floating.modifier = "Mod4";
+   floating = {
+    modifier = "Mod4";
+    border = 3;
+   };
   };
 
-  extraConfig = ''
-   blur enable
-   blur_passes 3
-   blur_radius 7
-   blur_xray disable
-
-   for_window [shell=".*"] opacity 0.85
+  extraConfig = '' 
+   for_window [app_id="Alacritty"] opacity 0.88
   '';
  };
 }

@@ -1,15 +1,16 @@
-{ config, ... }:
+{ config, lib, ... }:
 
 let
  modifier = "Mod4";
 in
 {
  wayland.windowManager.sway.config = {
-   keybindings = {
+   keybindings = lib.mkForce {
    
    # Basic
    "${modifier}+Return" = "exec alacritty";
    "${modifier}+q" = "kill";
+   "${modifier}+f" = "fullscreen";
 
    # Move focus
    "${modifier}+h" = "focus left"; 

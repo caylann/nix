@@ -5,6 +5,7 @@
 
   # QOL
   btop
+  microfetch
   yazi
 
   # System utils
