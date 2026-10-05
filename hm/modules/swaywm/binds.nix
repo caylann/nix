@@ -46,6 +46,9 @@ in
    "${modifier}+Shift+8" = "move container to workspace number 8";
    "${modifier}+Shift+9" = "move container to workspace number 9";
    "${modifier}+Shift+0" = "move container to workspace number 10";
+
+   # Floating
+   "${modifier}+Shift+Space" = "floating toggle";
   };
  }; 
 }
