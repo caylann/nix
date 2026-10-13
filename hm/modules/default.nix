@@ -3,8 +3,9 @@
   ./alacritty.nix
   ./ff.nix
   ./fonts.nix
-  ./fuzzel
+  ./rofi
   ./swaywm
+  ./waybar
   ./zsh.nix
  ];
 }

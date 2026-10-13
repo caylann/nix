@@ -37,10 +37,15 @@
    #   "githubassets.com"
    # ];
    #
-   # extraHostlists."list-custom.txt" = [
-   #   "example.com"
-   #   "example.org"
-   # ];
+   extraHostlists."list-custom.txt" = [
+     "roblox.com"
+     "rbxcdn.com"
+     "tr.rbxcdn.com"
+     "setup.rbxcdn.com"
+     "api.roblox.com"
+     "rbx.com"
+     "robloxlabs.com"
+   ];
    #
    # nfqwsAppend = [
    #   ''--filter-tcp=443 --hostlist="/opt/zapret/hostlists/list-github.txt" --dpi-desync=multisplit --dpi-desync-split-pos=2''

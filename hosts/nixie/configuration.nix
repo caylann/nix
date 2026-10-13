@@ -1,4 +1,4 @@
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, inputs, ... }:
 
 {
  imports = [
@@ -34,7 +34,7 @@
  time.timeZone = "Europe/Samara";
  i18n.defaultLocale = "en_US.UTF-8";
 
- # services.flatpak.enable = true;
+ services.flatpak.enable = true;
 
  #xdg.terminal-exec = {
  # enable = true;

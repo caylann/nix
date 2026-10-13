@@ -11,6 +11,10 @@ in
    "${modifier}+Return" = "exec alacritty";
    "${modifier}+q" = "kill";
    "${modifier}+f" = "fullscreen";
+   "${modifier}+d" = "exec rofi -show drun";
+   "${modifier}+b" = "exec firefox";
+   "${modifier}+y" = "exec alacritty -e yazi";
+   "${modifier}+Shift+c" = "reload";
 
    # Move focus
    "${modifier}+h" = "focus left"; 
