@@ -2,8 +2,8 @@
 {
  services.xserver = {
   enable = true;
-  autoRepeatDelay = 210;
-  autoRepeatInterval = 50;
+  autoRepeatDelay = 235;
+  autoRepeatInterval = 32;
 
   windowManager.dwm = {
    enable = true;
@@ -13,7 +13,8 @@
   };
 
   displayManager.sessionCommands = ''
-   ${pkgs.xorg.xrandr}/bin/xrandr --output HDMI-A-0 --mode 1920x1080 --rate 60 --primary
+   ${pkgs.xrandr}/bin/xrandr --output HDMI-A-0 --mode 1920x1080 --rate 60 --primary &
+   ${pkgs.feh}/bin/feh --bg-scale ~/Pictures/wp/nostalgicsky1.jpg  &
   '';
 
   deviceSection = ''

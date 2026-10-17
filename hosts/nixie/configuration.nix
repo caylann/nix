@@ -65,6 +65,7 @@
   nftables
   neovim
   pulsemixer
+  feh
   home-manager
  ];
 
