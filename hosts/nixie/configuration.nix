@@ -64,6 +64,7 @@
  environment.systemPackages = with pkgs; [
   nftables
   neovim
+  pulsemixer
   home-manager
  ];
 

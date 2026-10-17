@@ -1,4 +1,6 @@
 { config, pkgs, ... }:
 {
- services.displayManager.ly.enable = true;
+ services.displayManager = {
+  ly.enable = true;
+ };
 }

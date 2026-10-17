@@ -1,12 +1,6 @@
 { config, pkgs, ... }: 
-
-#let
- #flakeDir = "/home/caylann/nix";
-#in
 {
-
  imports = [
-  ./home-pkgs.nix
   ./modules
  ];
  
@@ -22,4 +16,24 @@
   plugins = with pkgs.vimPlugins; [
   ];
  };
+
+ nixpkgs.config.allowUnfree = true;
+ 
+ home.packages = with pkgs; [
+
+  # Desktop apps
+  obsidian
+  
+  # QOL
+  btop
+  microfetch
+  yazi
+
+  thunar
+
+  # System utils
+  git
+
+ ];
+
 }

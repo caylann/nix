@@ -3,10 +3,21 @@
   enable = true;
   settings = {
    
+   env = {
+    WINIT_X11_SCALE_FACTOR = "1.0";
+   };
+   
+   cursor = {
+    style = {
+     shape = "Beam";
+     blinking = "On";
+    };
+   };
+   
    window = {
     padding = {
-     x = 8;
-     y = 8;
+     x = 3;
+     y = 3;
     };
    };
 
@@ -41,7 +52,7 @@
     cursor = {
      text = "#010409";
      cursor = "#e6edf3";
-    }; 
+    };
     
     selection = {
      text = "#e6edf3";

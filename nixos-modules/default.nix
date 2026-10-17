@@ -1,10 +1,12 @@
 {
  imports = [
+  ./audio.nix
   ./boot.nix
+  ./dwm.nix
+  ./gtk.nix
   ./hm.nix
   ./kernel.nix
   ./ly.nix
-  ./sway.nix
   ./user.nix
   ./xdg.nix
  ];
