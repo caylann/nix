@@ -48,8 +48,6 @@
   enable = true;
  };
 
- programs.firefox.enable = true;
-
  # Enable CUPS to print documents.
  # services.printing.enable = true;
   

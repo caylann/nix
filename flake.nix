@@ -10,6 +10,8 @@
   };
   
   zapret-discord-youtube.url = "github:kartavkun/zapret-discord-youtube";
+
+  stylix.url = "github:danth/stylix/release-26.05";
  };
  
  outputs = { self, nixpkgs, home-manager, zapret-discord-youtube, ... }@inputs: let
@@ -28,6 +30,7 @@
    modules = [
     ./hosts/${hostname}/configuration.nix
     ./bypass/zapret.nix
+    inputs.stylix.nixosModules.stylix
    ];
   };
 

@@ -3,7 +3,8 @@
   ./alacritty.nix
   ./bash.nix
   ./ff.nix
-  ./fonts.nix
-  ./rofi
+  ./firefox.nix
+  ./rofi.nix
+  ./stylix.nix
  ];
 }

@@ -1,7 +1,8 @@
-{ config, pkgs, ... }: 
+{ config, pkgs, inputs, ... }: 
 {
  imports = [
   ./modules
+  inputs.stylix.homeModules.stylix
  ];
  
  home = {
@@ -22,6 +23,7 @@
  home.packages = with pkgs; [
 
   # Desktop apps
+  discord
   obsidian
   
   # QOL

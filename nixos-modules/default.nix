@@ -7,6 +7,7 @@
   ./hm.nix
   ./kernel.nix
   ./ly.nix
+  ./stylix.nix
   ./user.nix
   ./xdg.nix
  ];
