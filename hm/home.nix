@@ -28,15 +28,18 @@
   # Desktop apps
   discord
   obsidian
-  
+  obs-studio
+  vlc
+
   # QOL
   btop
   microfetch
   yazi
   thunar
 
-  # System utils
+  # CLI utils
   git
+  gh
 
  ];
 
