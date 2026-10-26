@@ -7,8 +7,10 @@
   ./hm.nix
   ./kernel.nix
   ./ly.nix
+  ./nh.nix
   ./stylix.nix
   ./user.nix
   ./xdg.nix
+  ./zram.nix
  ];
 }

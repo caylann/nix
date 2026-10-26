@@ -22,6 +22,9 @@
  
  home.packages = with pkgs; [
 
+  # cool stuff
+  cava
+
   # Desktop apps
   discord
   obsidian
@@ -30,7 +33,6 @@
   btop
   microfetch
   yazi
-
   thunar
 
   # System utils
